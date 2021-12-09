@@ -61,12 +61,6 @@ class App extends React.Component {
             <li>
               just as with <code>{'{'}input type="radio" name="..."{'}'}</code>, assigning identical <code>name</code> attribute to a group of <code>RadioButton</code>s results in identical <i>auto-switch</i> behavior of its' predecessor 
             </li>
-            <li>
-              therefore, no additional libraries are added to facilitate the development of this <code>RadioButton</code> component
-            </li>
-            <li>
-              current version of the <code>RadioButton</code> component does not involve any custom <i>state manipulation</i> logic
-            </li>
           </ol>
         </div>
         <br />

@@ -1,0 +1,32 @@
+:root {
+    --marginPadding: 1vmin;
+    --borderWidth: 10%;
+    --borderRadius: 10%;
+}
+
+/* comment out unwanted properties */
+
+.radio-button-wrapper {
+    display: flex;
+    align-items: baseline;
+    border-color: azure;
+    border-style: double;
+    border-width: var(--borderWidth);
+    /*border-radius: var(--borderRadius);*/
+    margin: var(--marginPadding) var(--marginPadding);
+}
+
+input, label {
+    padding: var(--marginPadding) var(--marginPadding);
+    margin: var(--marginPadding) var(--marginPadding);
+    float: left;
+}
+
+label {
+    /*text-align: justify;*/
+    text-align: left;
+}
+
+input:hover {
+    cursor: pointer;
+}
